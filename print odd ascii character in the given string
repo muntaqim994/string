@@ -1,0 +1,4 @@
+a=input("enter the string:")
+for i in a:
+    if ord(i)%2!=0:
+        print(f"{i} is odd ascii character")
